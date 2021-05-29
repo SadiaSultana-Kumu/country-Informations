@@ -1,0 +1,30 @@
+#body-tag{
+     background:rgb(8, 169, 197);
+}
+#countrydetails{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.country{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin-left: 50px;
+}
+.capital-name{
+    color: rgb(238, 230, 230);
+}
+.country-name{
+    font-size: 45px;
+    color: rgb(238, 230, 230);
+}
+#countrydetail{
+    margin: 50px;
+    align-items: center;
+}
+#countrydetail img{
+    width: 400px;
+}
